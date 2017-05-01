@@ -1,0 +1,49 @@
+@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One|Libre+Baskerville:400,400italic);
+
+body {
+    font-size: 80%;
+    font-family: 'Libre Baskerville', sans-serif;
+    background: seagreen;
+}
+
+div.top {
+    position: relative;
+    margin: 40px;
+}
+
+header {
+    margin: 10px 20px;
+    float: left;
+}
+
+nav {
+    display: inline;
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    padding: 5px 15px;
+    display: inline-block;
+}
+
+section {
+    position: absolute;
+    width: 70%;
+}
+
+aside {
+    float: right;
+    width: 30%;
+}
+
+.content {
+    background: mediumseagreen;
+    position: relative;
+    width: 90%;
+    clear: both;
+    margin: auto;
+}
