@@ -6,47 +6,45 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <div class="top">
+    <div id="top">
         <header>
             <h1>History of Kilkenny Castle</h1>
         </header>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="pembroke.html">Earls of Pembroke</a></li>
-                <li><a href="ormonde.html">Earls of Ormonde</a></li>
-                <li><a href="modern-day.html">Modern Day</a></li>
+                <li><a class="navLink" href="index.html">Home</a></li>
+                <li><a class="navLink" href="pembroke.html">Earls of Pembroke</a></li>
+                <li><a class="navLink" href="ormonde.html">Earls of Ormonde</a></li>
+                <li><a class="navLink" href="modern-day.html">Modern Day</a></li>
             </ul>
         </nav>
     </div>
-    <div class="content">
+    <div class="content" id="homepage">
         <section>
-            <h2>Kilkenny Castle Introduction</h2>
-            <p id="introduction">The Castle of Kilkenny is located in the town of Kilkenny known in Irish as <i>Chill
-                Chainnigh</i>. The
-                castle was first constructed as a wooden motte and bailey castle by Robert de Clare, otherwise known as
-                Strongbow. It was constructed on a hill that overlooked several important trade routes and a ford across
-                the
-                River Nore, later it was rebuilt with stone.</p>
-            <img id="motte-and-bailey-castle" alt="An early medieval motte and bailey castle"
-                 src="images/motte_and_bailey.jpg" height="268" width="382">
-            <img id="river-view-castle" alt="A view of Kilkenny Castle across the River Nore"
-                 src="images/castle-with-river.jpg" height="283" width="512">
-            <p id="description">
-                When the castle was originally built it was a classic square castle with 4 round drum towers connected
-                with
-                curtain walls. Nowadays the castle only has three walls and three towers, because during the Cromwellian
-                War
-                in Ireland it was besieged by Parliamentarian forces, and the Eastern wall and North-Eastern tower were
-                severely damaged.
-            </p>
-            <img id="overhead-view-castle" alt="A view of Kilkenny castle from above"
-                 src="images/overhead-from-west.jpg"
-                 height="240" width="320">
+            <h2 class="sectionHeader">Kilkenny Castle Introduction</h2>
+            <div class="sectionContent">
+                <img id="motte-and-bailey-castle"
+                     alt="An early medieval motte and bailey castle"
+                     src="images/motte_and_bailey.jpg" height="268" width="382">
+                <p id="motte-and-bailey">The Castle of Kilkenny is located in the town of Kilkenny which is known in
+                    Irish as <i>Chill Chainnigh</i>. The castle was first constructed as a wooden motte and bailey
+                    castle by Robert de Clare, otherwise known as Strongbow. </p>
+                <img id="river-view-castle" alt="A view of Kilkenny Castle across the River Nore"
+                     src="images/castle-with-river.jpg" height="283" width="512">
+                <p id="stone-castle">It was constructed on a hill that overlooked several important trade routes and a
+                    ford across the River Nore, later it was rebuilt with stone.</p>
+                <img id="overhead-view-castle" alt="A view of Kilkenny castle from above"
+                     src="images/overhead-from-west.jpg" height="240" width="320">
+                <p id="description"> When the castle was originally built it was a classic square castle with 4 round
+                    drum towers connected with curtain walls. Nowadays the castle only has three walls and three towers,
+                    because during the Cromwellian War in Ireland it was besieged by Parliamentarian forces, and the
+                    Eastern wall and North-Eastern tower were severely damaged.
+                </p>
+            </div>
         </section>
         <aside>
             <h3>Important Events in Kilkenny Castle's History</h3>
-            <table>
+            <table id="importantEvents">
                 <thead>
                 <tr>
                     <th>Date</th>
